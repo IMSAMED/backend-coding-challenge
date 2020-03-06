@@ -1,5 +1,16 @@
 package com.gemography.projeBackendChallenge.service.facade;
 
-public class ItemsService {
+import java.util.List;
+import java.util.Map;
 
+import com.gemography.projeBackendChallenge.bean.Items;
+
+public interface ItemsService {
+
+	
+   public Map<String, Long> listTrendingReposByLanguage();
+
+	
+	
+	
 }

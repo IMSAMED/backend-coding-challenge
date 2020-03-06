@@ -9,7 +9,7 @@ public class Items {
 
 	private String subscription_url;
 
-	private String language; 
+	private String language;
 
 	private String branches_url;
 
@@ -399,7 +399,6 @@ public class Items {
 		this.tags_url = tags_url;
 	}
 
-	
 	@JsonProperty("private")
 	public String getRepoType() {
 		return repoType;
@@ -411,6 +410,10 @@ public class Items {
 
 	public void setContributors_url(String contributors_url) {
 		this.contributors_url = contributors_url;
+	}
+
+	public String getContributors_url() {
+		return contributors_url;
 	}
 
 	public String getHas_downloads() {
@@ -743,31 +746,9 @@ public class Items {
 
 	@Override
 	public String toString() {
-		return "ClassPojo [stargazers_count = " + stargazers_count + ", pushed_at = " + pushed_at
-				+ ", subscription_url = " + subscription_url + ", language = " + language + ", branches_url = "
-				+ branches_url + ", issue_comment_url = " + issue_comment_url + ", labels_url = " + labels_url
-				+ ", score = " + score + ", subscribers_url = " + subscribers_url + ", releases_url = " + releases_url
-				+ ", svn_url = " + svn_url + ", id = " + id + ", forks = " + forks + ", archive_url = " + archive_url
-				+ ", git_refs_url = " + git_refs_url + ", forks_url = " + forks_url + ", statuses_url = " + statuses_url
-				+ ", ssh_url = " + ssh_url + ", license = " + license + ", full_name = " + full_name + ", size = "
-				+ size + ", languages_url = " + languages_url + ", html_url = " + html_url + ", collaborators_url = "
-				+ collaborators_url + ", clone_url = " + clone_url + ", name = " + name + ", pulls_url = " + pulls_url
-				+ ", default_branch = " + default_branch + ", hooks_url = " + hooks_url + ", trees_url = " + trees_url
-				+ ", tags_url = " + tags_url + ", private = " + repoType + ", contributors_url = " + contributors_url
-				+ ", has_downloads = " + has_downloads + ", notifications_url = " + notifications_url
-				+ ", open_issues_count = " + open_issues_count + ", description = " + description + ", created_at = "
-				+ created_at + ", watchers = " + watchers + ", keys_url = " + keys_url + ", deployments_url = "
-				+ deployments_url + ", has_projects = " + has_projects + ", archived = " + archived + ", has_wiki = "
-				+ has_wiki + ", updated_at = " + updated_at + ", comments_url = " + comments_url + ", stargazers_url = "
-				+ stargazers_url + ", disabled = " + disabled + ", git_url = " + git_url + ", has_pages = " + has_pages
-				+ ", owner = " + owner + ", commits_url = " + commits_url + ", compare_url = " + compare_url
-				+ ", git_commits_url = " + git_commits_url + ", blobs_url = " + blobs_url + ", git_tags_url = "
-				+ git_tags_url + ", merges_url = " + merges_url + ", downloads_url = " + downloads_url
-				+ ", has_issues = " + has_issues + ", url = " + url + ", contents_url = " + contents_url
-				+ ", mirror_url = " + mirror_url + ", milestones_url = " + milestones_url + ", teams_url = " + teams_url
-				+ ", fork = " + fork + ", issues_url = " + issues_url + ", events_url = " + events_url
-				+ ", issue_events_url = " + issue_events_url + ", assignees_url = " + assignees_url + ", open_issues = "
-				+ open_issues + ", watchers_count = " + watchers_count + ", node_id = " + node_id + ", homepage = "
-				+ homepage + ", forks_count = " + forks_count + "]";
+		return "Items : pushed_at=" + pushed_at + ", language=" + language + ", score=" + score + ", full_name="
+				+ full_name + ", name=" + name + ", description=" + description + ", created_at=" + created_at
+				+ ", watchers=" + watchers;
 	}
+
 }
