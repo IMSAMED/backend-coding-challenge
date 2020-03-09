@@ -1,4 +1,5 @@
-#Introduction 
+# Introduction:
+
 this coding challenge was a good opportunity to to memorize the material from My java training and online courses. and knowing tha art ort readme .
 
 * In this code I rename the variable "private" in the JSON  because is a JAVA keyword.
@@ -22,7 +23,7 @@ private boolean privateRepo;
 * The list of repos using the language.
 
  
-##Technologies
+## Technologies :
 Project is created with:
 * Java 8
 * maven 
@@ -30,7 +31,7 @@ Project is created with:
 * Feign HTTP client
 * swagger 2
 
-##API Testing 
+## API Testing :
   After runing this project . go to this the following address then obtain the complete documentation for this Microservice: 
 
 ```
