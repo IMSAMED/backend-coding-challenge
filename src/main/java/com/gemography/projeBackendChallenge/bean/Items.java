@@ -65,7 +65,7 @@ public class Items {
 
 	private String tags_url;
 
-	private String repoType; // private att li jai f json mot cle f java
+	private boolean privateRepo; // private att is a keyword in java
 
 	private String contributors_url;
 
@@ -400,12 +400,12 @@ public class Items {
 	}
 
 	@JsonProperty("private")
-	public String getRepoType() {
-		return repoType;
+	public boolean isPrivateRepo() {
+		return privateRepo;
 	}
 
-	public void setRepoType(String repoType) {
-		this.repoType = repoType;
+	public void setPrivateRepo(boolean privateRepo) {
+		this.privateRepo = privateRepo;
 	}
 
 	public void setContributors_url(String contributors_url) {

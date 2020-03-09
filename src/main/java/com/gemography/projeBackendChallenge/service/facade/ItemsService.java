@@ -1,16 +1,14 @@
 package com.gemography.projeBackendChallenge.service.facade;
 
-import java.util.List;
 import java.util.Map;
-
-import com.gemography.projeBackendChallenge.bean.Items;
+import java.util.Set;
 
 public interface ItemsService {
 
 	
-   public Map<String, Long> listTrendingReposByLanguage();
+   public Map<String, Long> trendingReposNumberByLanguage();
 
-	
+   public Map<String,Set<String>> trendingReposNameByLanguage();
 	
 	
 }
