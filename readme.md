@@ -1,6 +1,6 @@
 # Introduction:
 
-this coding challenge was a good opportunity to to memorize the material from My java training and online courses. and knowing tha art ort readme .
+this coding challenge was a good opportunity to to memorize the material from My java training and online courses. and knowing the art of readme .
 
 * In this code I rename the variable "private" in the JSON  because is a JAVA keyword.
 
